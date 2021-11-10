@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/animatecss/animate.css">
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
@@ -59,10 +60,10 @@
                 </div>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.html"><span class="mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a></li><li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="promociones.html"><span class="mobi-mbri mobi-mbri-cash mbr-iconfont mbr-iconfont-btn"></span>Promociones</a></li>
-                    <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="pedidos.html"><span class="mobi-mbri mobi-mbri-shopping-cart mbr-iconfont mbr-iconfont-btn"></span>Pedido</a></li></ul>
+                <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true"><li class="nav-item"><a class="nav-link link text-primary display-4" href="index.html"><span class="mobi-mbri mobi-mbri-home mbr-iconfont mbr-iconfont-btn"></span>Home</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="menu.html"><span class="mobi-mbri mobi-mbri-contact-form mbr-iconfont mbr-iconfont-btn"></span>Menú</a></li><li class="nav-item"><a class="nav-link link text-primary display-4" href="promociones.html"><span class="mobi-mbri mobi-mbri-cash mbr-iconfont mbr-iconfont-btn"></span>Promociones</a></li>
+                    <li class="nav-item"><a class="nav-link link text-primary show display-4" href="pedidos.html" aria-expanded="false"><span class="mobi-mbri mobi-mbri-shopping-cart mbr-iconfont mbr-iconfont-btn"></span>Pedido</a></li></ul>
                 
-                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-secondary-outline display-4" href="iniciarsesion.html"><span class="mobi-mbri mobi-mbri-user mbr-iconfont mbr-iconfont-btn"></span>Iniciar Sesión</a> <a class="btn btn-info-outline display-4" href="registrarse.html"><span class="mobi-mbri mobi-mbri-contact-form mbr-iconfont mbr-iconfont-btn"></span>
+                <div class="navbar-buttons mbr-section-btn"><a class="btn btn-secondary-outline display-4" href="iniciarsesion.html"><span class="mobi-mbri mobi-mbri-user-2 mbr-iconfont mbr-iconfont-btn"></span>Login</a> <a class="btn btn-info-outline display-4" href="registrarse.html"><span class="mobi-mbri mobi-mbri-contact-form mbr-iconfont mbr-iconfont-btn"></span>
                         Registrarse</a></div>
             </div>
         </div>
@@ -81,8 +82,8 @@
         </div>
         <div class="row justify-content-center mt-4">
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="c7d1wcqPe+BdQe3fpJN3pj5iqjn1gdJsntUkENOnFX4VVH88OfC74ydomyPBonh/fkGSIlPSunOJ6HUf226VtU8Fdt4MWMlbsw/n5fHKWrRuRiBHT/lY+muzXTh2uBLk">
-                    <p class="mbr-text mbr-fonts-style align-center mb-4 display-7">Bienvenido</p>
+                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler mx-auto" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="dw9B0lANlir3vAA3drM72X6FHJZm5W9vk0hyYBnzgXBuHJkVNUv099OdeWCBgiLMftIpvOOhX+Y+lCTU3OCvHk04Uuyj89uOFZoqZeg8l8YJRmH91FQOLclC2s+TxuwQ">
+                    <p class="mbr-text mbr-fonts-style align-center mb-4 display-4">¡Regístrese con nosotros y podrá realizar sus pedidos online y recibir las ofertas y descuentos diarios a su correo!</p>
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">¡Gracias por registrarse!</div>
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">Oops...! some
@@ -95,8 +96,14 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="email">
                             <input type="email" name="email" placeholder="Email" data-form-field="email" class="form-control" value="" id="email-form7-1f">
                         </div>
-                        <div data-for="phone" class="col-lg-12 col-md-12 col-sm-12 form-group mb-3">
+                        <div data-for="password" class="col-lg-12 col-md-12 col-sm-12 form-group mb-3">
                             <input type="password" name="password" placeholder="Contraseña" data-form-field="password" class="form-control" value="" id="phone-form7-1f">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="telefono">
+                            <input type="text" name="telefono" placeholder="Teléfono" data-form-field="telefono" class="form-control" value="" id="name-form7-1f">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 form-group mb-3" data-for="direccion">
+                            <input type="text" name="direccion" placeholder="Dirección" data-form-field="direccion" class="form-control" value="" id="name-form7-1f">
                         </div>
                         <div class="col-auto mbr-section-btn align-center"><button type="submit" class="btn btn-danger display-4">Aceptar</button></div>
                     </div>
@@ -121,7 +128,7 @@
                     
                     
                     
-                <li class="foot-menu-item mbr-fonts-style display-7">Conocenos</li><li class="foot-menu-item mbr-fonts-style display-7">Productos</li><li class="foot-menu-item mbr-fonts-style display-7">Registrarse</li><li class="foot-menu-item mbr-fonts-style display-7">Términos y condiciones</li><li class="foot-menu-item mbr-fonts-style display-7"></li></ul>
+                <li class="foot-menu-item mbr-fonts-style display-4">Conocenos</li><li class="foot-menu-item mbr-fonts-style display-4">Productos</li><li class="foot-menu-item mbr-fonts-style display-4">Registrarse</li><li class="foot-menu-item mbr-fonts-style display-4">Términos y condiciones</li><li class="foot-menu-item mbr-fonts-style display-4"></li></ul>
             </div>
             <div class="row social-row">
                 <div class="social-list align-right pb-2">
@@ -132,39 +139,37 @@
                     
                     
                 <div class="soc-item">
-                        <a href="https://twitter.com/mobirise" target="_blank">
-                            <span class="socicon-twitter socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <a href="https://twitter.com/?lang=es" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-twitter socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.facebook.com/pages/Mobirise/1616226671953247" target="_blank">
-                            <span class="socicon-facebook socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <a href="https://www.facebook.com/" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-facebook socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://www.youtube.com/c/mobirise" target="_blank">
-                            <span class="socicon-youtube socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <a href="https://www.youtube.com/" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-youtube socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://instagram.com/mobirise" target="_blank">
-                            <span class="socicon-instagram socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <a href="https://www.instagram.com/?hl=es" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-instagram socicon"></span>
                         </a>
                     </div><div class="soc-item">
-                        <a href="https://plus.google.com/u/0/+Mobirise" target="_blank">
-                            <span class="socicon-googleplus socicon mbr-iconfont mbr-iconfont-social"></span>
-                        </a>
-                    </div><div class="soc-item">
-                        <a href="https://www.behance.net/Mobirise" target="_blank">
-                            <span class="socicon-behance socicon mbr-iconfont mbr-iconfont-social"></span>
+                        <a href="https://web.whatsapp.com/" target="_blank">
+                            <span class="mbr-iconfont mbr-iconfont-social socicon-whatsapp socicon"></span>
                         </a>
                     </div></div>
             </div>
             <div class="row row-copirayt">
-                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-7">
+                <p class="mbr-text mb-0 mbr-fonts-style mbr-white align-center display-4">
                     © Copyright 2021 Al toque. Todos los derechos reservados</p>
             </div>
         </div>
     </div>
-</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/f" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">How to set up a site - <a href="https://mobirise.site/x" style="color:#aaa;">Check it</a></p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
+</section><section style="background-color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif; color:#aaa; font-size:12px; padding: 0; align-items: center; display: flex;"><a href="https://mobirise.site/l" style="flex: 1 1; height: 3rem; padding-left: 1rem;"></a><p style="flex: 0 0 auto; margin:0; padding-right:1rem;">Made with Mobirise - <a href="https://mobirise.site/k" style="color:#aaa;">Click here</a></p></section><script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>  <script src="assets/smoothscroll/smooth-scroll.js"></script>  <script src="assets/ytplayer/index.js"></script>  <script src="assets/dropdown/js/navbar-dropdown.js"></script>  <script src="assets/theme/js/script.js"></script>  <script src="assets/formoid/formoid.min.js"></script>  
   
   
-</body>
+ <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
+    <input name="animation" type="hidden">
+  </body>
 </html>
